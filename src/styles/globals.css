@@ -18,3 +18,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.app-bg {
+  background-image: radial-gradient(
+      rgba(109, 40, 217, 0.4) 1px,
+      transparent 1px
+    ),
+    radial-gradient(rgba(109, 40, 217, 0.4) 1px, transparent 1px);
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 640px) {
+  .app-container {
+    min-height: 35rem;
+  }
+}
